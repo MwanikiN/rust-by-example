@@ -16,8 +16,32 @@ name = "generics1"
 path = "src/bin/generics/generics1.rs"
 
 [[bin]]
+name = "if_let1"
+path = "src/bin/pattern_matching/if_let1.rs"
+
+[[bin]]
+name = "if_let2"
+path = "src/bin/pattern_matching/if_let2.rs"
+
+[[bin]]
+name = "if_let3"
+path = "src/bin/pattern_matching/if_let3.rs"
+
+[[bin]]
 name = "match1"
 path = "src/bin/pattern_matching/match1.rs"
+
+[[bin]]
+name = "match2"
+path = "src/bin/pattern_matching/match2.rs"
+
+[[bin]]
+name = "match3"
+path = "src/bin/pattern_matching/match3.rs"
+
+[[bin]]
+name = "match5"
+path = "src/bin/pattern_matching/match5.rs"
 
 [[bin]]
 name = "rc1"
