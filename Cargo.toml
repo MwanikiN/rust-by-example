@@ -48,6 +48,26 @@ name = "shadowing"
 path = "src/bin/pattern_matching/shadowing.rs"
 
 [[bin]]
+name = "match_pattern1"
+path = "src/bin/patterns/match_pattern1.rs"
+
+[[bin]]
+name = "patterns1"
+path = "src/bin/patterns/patterns1.rs"
+
+[[bin]]
+name = "patterns2"
+path = "src/bin/patterns/patterns2.rs"
+
+[[bin]]
+name = "patterns3"
+path = "src/bin/patterns/patterns3.rs"
+
+[[bin]]
+name = "patterns4"
+path = "src/bin/patterns/patterns4.rs"
+
+[[bin]]
 name = "rc1"
 path = "src/bin/reference_counter/rc1.rs"
 
