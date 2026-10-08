@@ -1,0 +1,26 @@
+[package]
+name = "rust-by-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# BEGIN GENERATED BINS
+
+[[bin]]
+name = "error1"
+path = "src/bin/error_handling/error1.rs"
+
+[[bin]]
+name = "generics1"
+path = "src/bin/generics/generics1.rs"
+
+[[bin]]
+name = "match1"
+path = "src/bin/pattern_matching/match1.rs"
+
+[[bin]]
+name = "rc1"
+path = "src/bin/reference_counter/rc1.rs"
+
+# END GENERATED BINS
