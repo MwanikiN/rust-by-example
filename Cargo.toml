@@ -44,6 +44,10 @@ name = "match5"
 path = "src/bin/pattern_matching/match5.rs"
 
 [[bin]]
+name = "shadowing"
+path = "src/bin/pattern_matching/shadowing.rs"
+
+[[bin]]
 name = "rc1"
 path = "src/bin/reference_counter/rc1.rs"
 
