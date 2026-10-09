@@ -8,6 +8,10 @@ edition = "2024"
 # BEGIN GENERATED BINS
 
 [[bin]]
+name = "remove_push"
+path = "src/bin/cli/remove_push.rs"
+
+[[bin]]
 name = "error1"
 path = "src/bin/error_handling/error1.rs"
 
