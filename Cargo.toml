@@ -20,6 +20,10 @@ name = "generics1"
 path = "src/bin/generics/generics1.rs"
 
 [[bin]]
+name = "hashmap1"
+path = "src/bin/hashmaps/hashmap1.rs"
+
+[[bin]]
 name = "if_let1"
 path = "src/bin/pattern_matching/if_let1.rs"
 
@@ -74,5 +78,9 @@ path = "src/bin/patterns/patterns4.rs"
 [[bin]]
 name = "rc1"
 path = "src/bin/reference_counter/rc1.rs"
+
+[[bin]]
+name = "structs1"
+path = "src/bin/structs/structs1.rs"
 
 # END GENERATED BINS
