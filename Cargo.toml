@@ -24,6 +24,14 @@ name = "hashmap1"
 path = "src/bin/hashmaps/hashmap1.rs"
 
 [[bin]]
+name = "hashmap3"
+path = "src/bin/hashmaps/hashmap3.rs"
+
+[[bin]]
+name = "hashmap4"
+path = "src/bin/hashmaps/hashmap4.rs"
+
+[[bin]]
 name = "hashmaps2"
 path = "src/bin/hashmaps/hashmaps2.rs"
 
