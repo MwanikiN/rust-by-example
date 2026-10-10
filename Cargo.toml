@@ -24,6 +24,10 @@ name = "hashmap1"
 path = "src/bin/hashmaps/hashmap1.rs"
 
 [[bin]]
+name = "hashmaps2"
+path = "src/bin/hashmaps/hashmaps2.rs"
+
+[[bin]]
 name = "if_let1"
 path = "src/bin/pattern_matching/if_let1.rs"
 
