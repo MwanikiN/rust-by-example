@@ -36,6 +36,18 @@ name = "hashmap4"
 path = "src/bin/hashmaps/hashmap4.rs"
 
 [[bin]]
+name = "hashmap5"
+path = "src/bin/hashmaps/hashmap5.rs"
+
+[[bin]]
+name = "hashmap6"
+path = "src/bin/hashmaps/hashmap6.rs"
+
+[[bin]]
+name = "hashmap7"
+path = "src/bin/hashmaps/hashmap7.rs"
+
+[[bin]]
 name = "hashmaps2"
 path = "src/bin/hashmaps/hashmaps2.rs"
 
@@ -102,6 +114,14 @@ path = "src/bin/reference_counter/rc1.rs"
 [[bin]]
 name = "result1"
 path = "src/bin/result/result1.rs"
+
+[[bin]]
+name = "result2"
+path = "src/bin/result/result2.rs"
+
+[[bin]]
+name = "result3"
+path = "src/bin/result/result3.rs"
 
 [[bin]]
 name = "structs1"
