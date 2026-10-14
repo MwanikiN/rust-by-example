@@ -128,6 +128,14 @@ name = "pub1"
 path = "src/bin/pub/pub1.rs"
 
 [[bin]]
+name = "pub2"
+path = "src/bin/pub/pub2.rs"
+
+[[bin]]
+name = "thermostat"
+path = "src/bin/pub/thermostat.rs"
+
+[[bin]]
 name = "rc1"
 path = "src/bin/reference_counter/rc1.rs"
 
