@@ -8,6 +8,18 @@ edition = "2024"
 # BEGIN GENERATED BINS
 
 [[bin]]
+name = "functions1"
+path = "src/bin/associated_functions/functions1.rs"
+
+[[bin]]
+name = "functions2"
+path = "src/bin/associated_functions/functions2.rs"
+
+[[bin]]
+name = "functions3"
+path = "src/bin/associated_functions/functions3.rs"
+
+[[bin]]
 name = "remove_push"
 path = "src/bin/cli/remove_push.rs"
 
@@ -106,6 +118,14 @@ path = "src/bin/patterns/patterns3.rs"
 [[bin]]
 name = "patterns4"
 path = "src/bin/patterns/patterns4.rs"
+
+[[bin]]
+name = "product"
+path = "src/bin/pub/product.rs"
+
+[[bin]]
+name = "pub1"
+path = "src/bin/pub/pub1.rs"
 
 [[bin]]
 name = "rc1"
