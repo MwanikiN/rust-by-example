@@ -24,11 +24,6 @@ impl Pet {
         self.hunger = hunger;
     }
 
-//     // Feed the pet and reduce hunger by 30
-//     pub fn play(&mut self) {
-//     self.hunger = self.hunger.saturating_add(15).min(100);
-//     self.energy = self.energy.saturating_sub(20);
-// }
      // Return the current energy level
     pub fn energy(&self) -> u32 {
         self.energy
@@ -47,5 +42,17 @@ impl Pet {
         else {
             String::from("tired")
         }
+    }
+
+        // energy reduces by 20 and hunger increases by 15
+    pub fn play(&mut self) {
+    self.hunger = self.hunger.saturating_add(15).min(100);
+    self.energy = self.energy.saturating_sub(20);
+    println!("{} had fun playing!",self.name());
+}
+    // Feed the pet and reduce hunger by 30
+    pub fn feed(&mut self) {
+        self.hunger = self.hunger.saturating_sub(30);
+        println!("{} enjoyed the meal!", self.name);
     }
 }

@@ -1,0 +1,59 @@
+mod pet;
+
+use pet::Pet;
+
+fn main() {
+    let mut name = String::new();
+    std::io::stdin()
+        .read_line(&mut name)
+        .expect("Failed to read line");
+
+    let name = name.trim().to_string();
+
+     // Read initial energy
+    let mut energy_input = String::new();
+    std::io::stdin()
+        .read_line(&mut energy_input)
+        .expect("Failed to read energy");
+    let energy: u32 = energy_input
+        .trim()
+        .parse()
+        .expect("Please enter a valid energy value");
+        
+    // Read initial hunger
+    let mut hunger_input = String::new();
+    std::io::stdin()
+        .read_line(&mut hunger_input)
+        .expect("Failed to read hunger");
+    let hunger: u32 = hunger_input
+        .trim()
+        .parse()
+        .expect("Please enter a valid hunger value");
+    // Create a mutable Pet
+    let mut pet = Pet::new(name.clone());
+    println!("--- Status Report ---");
+    println!("Name: {}",name.clone());
+    // initial energy
+    println!("Energy: {}",energy);
+    println!("Hunger: {}",hunger);
+    pet.set_hunger_energy(energy, hunger);
+
+    //Display the mood
+    println!("Mood: {}",pet.status());
+    
+    // play twice
+    pet.play();
+    pet.play();
+
+    // feed the pet
+    pet.feed();
+    println!("--- After Activities ---");
+    println!("--- Status Report ---");
+    println!("Name: {}",name.clone());
+    // Display current hunger and energy
+    println!("Energy: {}", pet.energy());
+    println!("Hunger: {}", pet.hunger());
+    //Display the mood
+    println!("Mood: {}",pet.status());
+    
+}
