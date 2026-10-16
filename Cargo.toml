@@ -20,6 +20,10 @@ name = "functions3"
 path = "src/bin/associated_functions/functions3.rs"
 
 [[bin]]
+name = "pet"
+path = "src/bin/associated_functions/pet.rs"
+
+[[bin]]
 name = "remove_push"
 path = "src/bin/cli/remove_push.rs"
 
