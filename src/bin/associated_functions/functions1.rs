@@ -1,6 +1,7 @@
 use std::io;
 
 // TODO: Define the Player struct with name (String) and score (u32) fields
+#[allow(dead_code)]
 struct Player {
     name: String,
     score: u32

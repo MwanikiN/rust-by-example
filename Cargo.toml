@@ -28,6 +28,14 @@ name = "enum1"
 path = "src/bin/enums/enum1.rs"
 
 [[bin]]
+name = "enum2"
+path = "src/bin/enums/enum2.rs"
+
+[[bin]]
+name = "shape"
+path = "src/bin/enums/shape.rs"
+
+[[bin]]
 name = "traffic"
 path = "src/bin/enums/traffic.rs"
 
@@ -74,6 +82,14 @@ path = "src/bin/hashmaps/hashmaps2.rs"
 [[bin]]
 name = "option1"
 path = "src/bin/option/option1.rs"
+
+[[bin]]
+name = "option2"
+path = "src/bin/option/option2.rs"
+
+[[bin]]
+name = "profile"
+path = "src/bin/option/profile.rs"
 
 [[bin]]
 name = "if_let1"
