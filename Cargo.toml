@@ -207,4 +207,24 @@ path = "src/bin/result/result3.rs"
 name = "structs1"
 path = "src/bin/structs/structs1.rs"
 
+[[bin]]
+name = "describable"
+path = "src/bin/traits/describable.rs"
+
+[[bin]]
+name = "items"
+path = "src/bin/traits/items.rs"
+
+[[bin]]
+name = "point"
+path = "src/bin/traits/point.rs"
+
+[[bin]]
+name = "trait1"
+path = "src/bin/traits/trait1.rs"
+
+[[bin]]
+name = "traits2"
+path = "src/bin/traits/traits2.rs"
+
 # END GENERATED BINS
