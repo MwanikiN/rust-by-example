@@ -60,8 +60,16 @@ name = "generics1"
 path = "src/bin/generics/generics1.rs"
 
 [[bin]]
+name = "generics2"
+path = "src/bin/generics/generics2.rs"
+
+[[bin]]
 name = "keyvalue"
 path = "src/bin/generics/keyvalue.rs"
+
+[[bin]]
+name = "utils"
+path = "src/bin/generics/utils.rs"
 
 [[bin]]
 name = "hashmap1"
