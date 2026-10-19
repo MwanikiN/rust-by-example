@@ -212,6 +212,18 @@ name = "structs1"
 path = "src/bin/structs/structs1.rs"
 
 [[bin]]
+name = "alerts"
+path = "src/bin/traits/alerts.rs"
+
+[[bin]]
+name = "colors"
+path = "src/bin/traits/colors.rs"
+
+[[bin]]
+name = "coordinates"
+path = "src/bin/traits/coordinates.rs"
+
+[[bin]]
 name = "describable"
 path = "src/bin/traits/describable.rs"
 
@@ -220,8 +232,28 @@ name = "items"
 path = "src/bin/traits/items.rs"
 
 [[bin]]
+name = "notifiable"
+path = "src/bin/traits/notifiable.rs"
+
+[[bin]]
+name = "notification"
+path = "src/bin/traits/notification.rs"
+
+[[bin]]
 name = "point"
 path = "src/bin/traits/point.rs"
+
+[[bin]]
+name = "point1"
+path = "src/bin/traits/point1.rs"
+
+[[bin]]
+name = "prod"
+path = "src/bin/traits/prod.rs"
+
+[[bin]]
+name = "product1"
+path = "src/bin/traits/product1.rs"
 
 [[bin]]
 name = "trait1"
@@ -230,5 +262,41 @@ path = "src/bin/traits/trait1.rs"
 [[bin]]
 name = "traits2"
 path = "src/bin/traits/traits2.rs"
+
+[[bin]]
+name = "traits3"
+path = "src/bin/traits/traits3.rs"
+
+[[bin]]
+name = "traits4"
+path = "src/bin/traits/traits4.rs"
+
+[[bin]]
+name = "traits5"
+path = "src/bin/traits/traits5.rs"
+
+[[bin]]
+name = "traits6"
+path = "src/bin/traits/traits6.rs"
+
+[[bin]]
+name = "traits7"
+path = "src/bin/traits/traits7.rs"
+
+[[bin]]
+name = "traits8"
+path = "src/bin/traits/traits8.rs"
+
+[[bin]]
+name = "traits9"
+path = "src/bin/traits/traits9.rs"
+
+[[bin]]
+name = "processor"
+path = "src/bin/where_clause/processor.rs"
+
+[[bin]]
+name = "where1"
+path = "src/bin/where_clause/where1.rs"
 
 # END GENERATED BINS
