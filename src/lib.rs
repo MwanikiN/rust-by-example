@@ -3,4 +3,5 @@ pub mod lib {
     pub mod locker;
     pub mod thermostat;
     pub mod product;
+    pub mod printable;
 }

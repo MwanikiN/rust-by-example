@@ -168,10 +168,6 @@ name = "patterns4"
 path = "src/bin/patterns/patterns4.rs"
 
 [[bin]]
-name = "product"
-path = "src/bin/pub/product.rs"
-
-[[bin]]
 name = "pub1"
 path = "src/bin/pub/pub1.rs"
 
@@ -182,10 +178,6 @@ path = "src/bin/pub/pub2.rs"
 [[bin]]
 name = "pub3"
 path = "src/bin/pub/pub3.rs"
-
-[[bin]]
-name = "thermostat"
-path = "src/bin/pub/thermostat.rs"
 
 [[bin]]
 name = "rc1"
@@ -254,6 +246,10 @@ path = "src/bin/traits/product1.rs"
 [[bin]]
 name = "trait1"
 path = "src/bin/traits/trait1.rs"
+
+[[bin]]
+name = "traits10"
+path = "src/bin/traits/traits10.rs"
 
 [[bin]]
 name = "traits2"
