@@ -100,6 +100,10 @@ name = "hashmaps2"
 path = "src/bin/hashmaps/hashmaps2.rs"
 
 [[bin]]
+name = "impl_trait1"
+path = "src/bin/impl_trait/impl_trait1.rs"
+
+[[bin]]
 name = "option1"
 path = "src/bin/option/option1.rs"
 
