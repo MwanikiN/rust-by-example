@@ -200,6 +200,18 @@ name = "structs1"
 path = "src/bin/structs/structs1.rs"
 
 [[bin]]
+name = "dyn1"
+path = "src/bin/trait_objects/dyn1.rs"
+
+[[bin]]
+name = "dyn2"
+path = "src/bin/trait_objects/dyn2.rs"
+
+[[bin]]
+name = "dyn3"
+path = "src/bin/trait_objects/dyn3.rs"
+
+[[bin]]
 name = "alerts"
 path = "src/bin/traits/alerts.rs"
 
