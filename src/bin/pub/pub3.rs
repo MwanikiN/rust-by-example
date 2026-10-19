@@ -1,7 +1,7 @@
 
-mod locker;
+// mod locker;
 
-use locker::Locker;
+use rust_by_example::lib::locker::{Locker};
 use std::io;
 
 fn main() {

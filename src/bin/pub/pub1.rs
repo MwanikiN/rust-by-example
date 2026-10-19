@@ -1,8 +1,8 @@
 // Declare the product module
-mod product;
+// mod product;
 
 // TODO: Bring Product into scope with a use statement
-use product::Product;
+use rust_by_example::lib::product::Product;
 
 fn main() {
     // Read input

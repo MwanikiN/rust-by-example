@@ -168,10 +168,6 @@ name = "patterns4"
 path = "src/bin/patterns/patterns4.rs"
 
 [[bin]]
-name = "locker"
-path = "src/bin/pub/locker.rs"
-
-[[bin]]
 name = "product"
 path = "src/bin/pub/product.rs"
 

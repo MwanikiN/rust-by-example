@@ -1,6 +1,6 @@
-mod thermostat;
+// mod thermostat;
 
-use thermostat::Thermostat;
+use rust_by_example::lib::thermostat::Thermostat;
 
 fn main() {
     // Read inputs
