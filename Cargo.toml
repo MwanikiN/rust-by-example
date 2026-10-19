@@ -216,8 +216,8 @@ name = "colors"
 path = "src/bin/traits/colors.rs"
 
 [[bin]]
-name = "cordinates"
-path = "src/bin/traits/cordinates.rs"
+name = "coordinates"
+path = "src/bin/traits/coordinates.rs"
 
 [[bin]]
 name = "describable"
@@ -232,12 +232,24 @@ name = "notifiable"
 path = "src/bin/traits/notifiable.rs"
 
 [[bin]]
+name = "notification"
+path = "src/bin/traits/notification.rs"
+
+[[bin]]
 name = "point"
 path = "src/bin/traits/point.rs"
 
 [[bin]]
+name = "point1"
+path = "src/bin/traits/point1.rs"
+
+[[bin]]
 name = "prod"
 path = "src/bin/traits/prod.rs"
+
+[[bin]]
+name = "product1"
+path = "src/bin/traits/product1.rs"
 
 [[bin]]
 name = "trait1"
@@ -262,5 +274,17 @@ path = "src/bin/traits/traits5.rs"
 [[bin]]
 name = "traits6"
 path = "src/bin/traits/traits6.rs"
+
+[[bin]]
+name = "traits7"
+path = "src/bin/traits/traits7.rs"
+
+[[bin]]
+name = "traits8"
+path = "src/bin/traits/traits8.rs"
+
+[[bin]]
+name = "traits9"
+path = "src/bin/traits/traits9.rs"
 
 # END GENERATED BINS

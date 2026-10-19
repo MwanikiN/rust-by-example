@@ -1,6 +1,6 @@
-mod color;
+mod colors;
 
-use color::Color;
+use colors::Color;
 
 fn main() {
     // Read the six RGB values
