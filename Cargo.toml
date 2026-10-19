@@ -208,50 +208,6 @@ name = "structs1"
 path = "src/bin/structs/structs1.rs"
 
 [[bin]]
-name = "alerts"
-path = "src/bin/traits/alerts.rs"
-
-[[bin]]
-name = "colors"
-path = "src/bin/traits/colors.rs"
-
-[[bin]]
-name = "coordinates"
-path = "src/bin/traits/coordinates.rs"
-
-[[bin]]
-name = "describable"
-path = "src/bin/traits/describable.rs"
-
-[[bin]]
-name = "items"
-path = "src/bin/traits/items.rs"
-
-[[bin]]
-name = "notifiable"
-path = "src/bin/traits/notifiable.rs"
-
-[[bin]]
-name = "notification"
-path = "src/bin/traits/notification.rs"
-
-[[bin]]
-name = "point"
-path = "src/bin/traits/point.rs"
-
-[[bin]]
-name = "point1"
-path = "src/bin/traits/point1.rs"
-
-[[bin]]
-name = "prod"
-path = "src/bin/traits/prod.rs"
-
-[[bin]]
-name = "product1"
-path = "src/bin/traits/product1.rs"
-
-[[bin]]
 name = "trait1"
 path = "src/bin/traits/trait1.rs"
 

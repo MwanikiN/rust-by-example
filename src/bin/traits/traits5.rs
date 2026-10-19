@@ -35,5 +35,5 @@ fn main() {
     // Format: "Original location: {name} at ({x}, {y})"
     // Format: "Cloned location: {name} at ({x}, {y})"
     println!("Original location: {} at ({}, {})",named_location.name, named_location.x, named_location.y);
-    println!("Cloned location: {} at ({}, {})",named_location.name, named_location.x, named_location.y);
+    println!("Cloned location: {} at ({}, {})",named_location2.name, named_location2.x, named_location2.y);
 }

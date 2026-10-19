@@ -1,6 +1,6 @@
 mod prod;
 
-use product::Product;
+use prod::Product;
 
 fn main() {
     let mut name = String::new();
