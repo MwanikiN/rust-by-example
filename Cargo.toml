@@ -287,4 +287,12 @@ path = "src/bin/traits/traits8.rs"
 name = "traits9"
 path = "src/bin/traits/traits9.rs"
 
+[[bin]]
+name = "processor"
+path = "src/bin/where_clause/processor.rs"
+
+[[bin]]
+name = "where1"
+path = "src/bin/where_clause/where1.rs"
+
 # END GENERATED BINS
