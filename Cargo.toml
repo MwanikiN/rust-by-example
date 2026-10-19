@@ -212,6 +212,14 @@ name = "alerts"
 path = "src/bin/traits/alerts.rs"
 
 [[bin]]
+name = "colors"
+path = "src/bin/traits/colors.rs"
+
+[[bin]]
+name = "cordinates"
+path = "src/bin/traits/cordinates.rs"
+
+[[bin]]
 name = "describable"
 path = "src/bin/traits/describable.rs"
 
@@ -246,5 +254,13 @@ path = "src/bin/traits/traits3.rs"
 [[bin]]
 name = "traits4"
 path = "src/bin/traits/traits4.rs"
+
+[[bin]]
+name = "traits5"
+path = "src/bin/traits/traits5.rs"
+
+[[bin]]
+name = "traits6"
+path = "src/bin/traits/traits6.rs"
 
 # END GENERATED BINS
