@@ -7,4 +7,7 @@ pub mod lib {
     pub mod vehicle;
     pub mod notifications;
     pub mod items;
+    pub mod draw;
+    pub mod button;
+    pub mod text_field;
 }

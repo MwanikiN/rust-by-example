@@ -212,6 +212,10 @@ name = "dyn3"
 path = "src/bin/trait_objects/dyn3.rs"
 
 [[bin]]
+name = "dyn4"
+path = "src/bin/trait_objects/dyn4.rs"
+
+[[bin]]
 name = "alerts"
 path = "src/bin/traits/alerts.rs"
 
