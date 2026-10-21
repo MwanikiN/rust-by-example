@@ -19,13 +19,18 @@ fn main() {
     // TODO: Create a new Stack
     let mut new_stack: Stack<i32> = Stack::new();
     // TODO: Push the three numbers onto the stack (num1, num2, num3 in that order)
-    new_stack.push(num1);
-    new_stack.push(num2);
-    new_stack.push(num3);
-    // TODO: Pop four times and print each result
-    println!("{}",new_stack.pop().unwrap_or(-1));
-    println!("{}",new_stack.pop().unwrap_or(-1));
-    println!("{}",new_stack.pop().unwrap_or(-1));
-    println!("{}",new_stack.pop().unwrap_or(-1));
+    for i in 0..3 {
+        new_stack.push(match i {
+            0 => num1,
+            1 => num2,
+            2 => num3,
+            _ => unreachable!(),
+        });
+    }
+   
+    for _ in 0..4 {
+        println!("{}", new_stack.pop().unwrap_or(-1));
+    }
+
     // Use unwrap_or(-1) to handle the empty stack case
 }
