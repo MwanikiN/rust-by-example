@@ -11,4 +11,7 @@ pub mod lib {
     pub mod button;
     pub mod text_field;
     pub mod screen;
+    pub mod cpu;
+    pub mod memory;
+    pub mod stack;
 }

@@ -34,7 +34,5 @@ fn main() {
 
     screen.add(Box::new(Button { label, width }));
 
-    for component in &screen.components {
-        println!("{}", component.draw());
-    }
+    screen.run();
 }

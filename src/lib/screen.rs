@@ -18,4 +18,10 @@ impl Screen {
     pub fn add(&mut self, component: Box<dyn Draw>) {
         self.components.push(component);
     }
+
+    pub fn run(&self) {
+        for elem in &self.components {
+            println!("{}",elem.draw());
+        }
+    }
 }
