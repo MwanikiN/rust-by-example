@@ -14,4 +14,8 @@ pub mod lib {
     pub mod cpu;
     pub mod memory;
     pub mod stack;
+    pub mod catalog;
+    pub mod items1;
+    pub mod shape;
+    pub mod shapes;
 }
