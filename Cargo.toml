@@ -32,6 +32,10 @@ name = "remove_push"
 path = "src/bin/cli/remove_push.rs"
 
 [[bin]]
+name = "composition1"
+path = "src/bin/composition/composition1.rs"
+
+[[bin]]
 name = "enum1"
 path = "src/bin/enums/enum1.rs"
 
@@ -62,6 +66,10 @@ path = "src/bin/generics/generics1.rs"
 [[bin]]
 name = "generics2"
 path = "src/bin/generics/generics2.rs"
+
+[[bin]]
+name = "generics3"
+path = "src/bin/generics/generics3.rs"
 
 [[bin]]
 name = "keyvalue"
@@ -200,6 +208,30 @@ name = "structs1"
 path = "src/bin/structs/structs1.rs"
 
 [[bin]]
+name = "dyn1"
+path = "src/bin/trait_objects/dyn1.rs"
+
+[[bin]]
+name = "dyn2"
+path = "src/bin/trait_objects/dyn2.rs"
+
+[[bin]]
+name = "dyn3"
+path = "src/bin/trait_objects/dyn3.rs"
+
+[[bin]]
+name = "dyn4"
+path = "src/bin/trait_objects/dyn4.rs"
+
+[[bin]]
+name = "dyn5"
+path = "src/bin/trait_objects/dyn5.rs"
+
+[[bin]]
+name = "dyn6"
+path = "src/bin/trait_objects/dyn6.rs"
+
+[[bin]]
 name = "alerts"
 path = "src/bin/traits/alerts.rs"
 
@@ -242,6 +274,10 @@ path = "src/bin/traits/prod.rs"
 [[bin]]
 name = "product1"
 path = "src/bin/traits/product1.rs"
+
+[[bin]]
+name = "products2"
+path = "src/bin/traits/products2.rs"
 
 [[bin]]
 name = "trait1"
